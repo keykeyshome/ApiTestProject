@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testproj" parallel="methods">
+    <test name="testDemo1">
+     <listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="retry.OverrideIAnnotationTransformer"></listener>
+	</listeners>
+        <packages>
+            <package name="apitest"/>
+        </packages>
+<!--         <classes> -->
+<!--             <class name="com.testproj.Demo.TestDemo1"></class> -->
+<!--             <class name="com.testproj.Demo.TestDemo1"></class> -->
+<!--             <class name="com.testproj.Demo.TestDemo1"></class> -->
+<!--         </classes> -->
+    </test>
+</suite>

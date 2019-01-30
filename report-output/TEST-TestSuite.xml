@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="44.873" tests="12" errors="0" skipped="9" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\qjj\Ideaworkspace\apitest\target\test-classes;D:\qjj\Ideaworkspace\apitest\target\classes;D:\qjj\maven_repository\com\github\crab2died\Excel4J\2.1.2\Excel4J-2.1.2.jar;D:\qjj\maven_repository\org\apache\poi\poi\3.17\poi-3.17.jar;D:\qjj\maven_repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;D:\qjj\maven_repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;D:\qjj\maven_repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;D:\qjj\maven_repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\qjj\maven_repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\qjj\maven_repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\qjj\maven_repository\org\apache\httpcomponents\httpclient\4.5.4\httpclient-4.5.4.jar;D:\qjj\maven_repository\org\apache\httpcomponents\httpcore\4.4.7\httpcore-4.4.7.jar;D:\qjj\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\qjj\maven_repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\qjj\maven_repository\org\apache\httpcomponents\httpmime\4.5.4\httpmime-4.5.4.jar;D:\qjj\maven_repository\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\qjj\maven_repository\com\googlecode\aviator\aviator\3.2.0\aviator-3.2.0.jar;D:\qjj\maven_repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\qjj\maven_repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;D:\qjj\maven_repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;D:\qjj\maven_repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;D:\qjj\maven_repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;D:\qjj\maven_repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\qjj\maven_repository\com\alibaba\fastjson\1.2.44\fastjson-1.2.44.jar;D:\qjj\maven_repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;D:\qjj\maven_repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;D:\qjj\maven_repository\javax\activation\activation\1.1\activation-1.1.jar;D:\qjj\maven_repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;D:\qjj\maven_repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\qjj\maven_repository\org\testng\testng\6.13.1\testng-6.13.1.jar;D:\qjj\maven_repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\qjj\maven_repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;D:\qjj\maven_repository\velocity\velocity\1.4\velocity-1.4.jar;D:\qjj\maven_repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\qjj\maven_repository\com\google\inject\guice\3.0\guice-3.0.jar;D:\qjj\maven_repository\javax\inject\javax.inject\1\javax.inject-1.jar;D:\qjj\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\qjj\maven_repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;D:\qjj\maven_repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\qjj\maven_repository\org\apache\commons\commons-compress\1.15\commons-compress-1.15.jar;D:\qjj\maven_repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\qjj\maven_repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;D:\qjj\maven_repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\zz\AppData\Local\Temp\surefire2964646035153983210\surefirebooter300214350274247366.jar C:\Users\zz\AppData\Local\Temp\surefire2964646035153983210 2019-01-29T16-28-53_063-jvmRun1 surefire6309356181673913273tmp surefire_03462858501590031503tmp"/>
+    <property name="surefire.test.class.path" value="D:\qjj\Ideaworkspace\apitest\target\test-classes;D:\qjj\Ideaworkspace\apitest\target\classes;D:\qjj\maven_repository\com\github\crab2died\Excel4J\2.1.2\Excel4J-2.1.2.jar;D:\qjj\maven_repository\org\apache\poi\poi\3.17\poi-3.17.jar;D:\qjj\maven_repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;D:\qjj\maven_repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;D:\qjj\maven_repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;D:\qjj\maven_repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;D:\qjj\maven_repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;D:\qjj\maven_repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;D:\qjj\maven_repository\org\apache\httpcomponents\httpclient\4.5.4\httpclient-4.5.4.jar;D:\qjj\maven_repository\org\apache\httpcomponents\httpcore\4.4.7\httpcore-4.4.7.jar;D:\qjj\maven_repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\qjj\maven_repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;D:\qjj\maven_repository\org\apache\httpcomponents\httpmime\4.5.4\httpmime-4.5.4.jar;D:\qjj\maven_repository\commons-io\commons-io\2.6\commons-io-2.6.jar;D:\qjj\maven_repository\com\googlecode\aviator\aviator\3.2.0\aviator-3.2.0.jar;D:\qjj\maven_repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar;D:\qjj\maven_repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;D:\qjj\maven_repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;D:\qjj\maven_repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;D:\qjj\maven_repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;D:\qjj\maven_repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;D:\qjj\maven_repository\com\alibaba\fastjson\1.2.44\fastjson-1.2.44.jar;D:\qjj\maven_repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;D:\qjj\maven_repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;D:\qjj\maven_repository\javax\activation\activation\1.1\activation-1.1.jar;D:\qjj\maven_repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;D:\qjj\maven_repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;D:\qjj\maven_repository\org\testng\testng\6.13.1\testng-6.13.1.jar;D:\qjj\maven_repository\com\beust\jcommander\1.72\jcommander-1.72.jar;D:\qjj\maven_repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;D:\qjj\maven_repository\velocity\velocity\1.4\velocity-1.4.jar;D:\qjj\maven_repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;D:\qjj\maven_repository\com\google\inject\guice\3.0\guice-3.0.jar;D:\qjj\maven_repository\javax\inject\javax.inject\1\javax.inject-1.jar;D:\qjj\maven_repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;D:\qjj\maven_repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;D:\qjj\maven_repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;D:\qjj\maven_repository\org\apache\commons\commons-compress\1.15\commons-compress-1.15.jar;D:\qjj\maven_repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;D:\qjj\maven_repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;D:\qjj\maven_repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\zz"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="basedir" value="D:\qjj\Ideaworkspace\apitest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\zz\AppData\Local\Temp\surefire2964646035153983210\surefirebooter300214350274247366.jar"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="user.name" value="zz"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\qjj\maven_repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\zz\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.2.1"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="user.dir" value="D:\qjj\Ideaworkspace\apitest\target"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Program Files\apache-maven-3.5.4\bin;D:\qjj\android-sdk-windows\tools;D:\qjj\android-sdk-windows\platform-tools;C:\Users\zz\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Fiddler;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\qjj\maven_repository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out"/>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNG] [WARN] Ignoring duplicate listener : org.uncommons.reportng.HTMLReporter
+[TestNG] [WARN] Ignoring duplicate listener : org.uncommons.reportng.JUnitXMLReporter
+[TestNG] [WARN] AnnotationTransformer already set
+thread----main
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid]
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid] ---- 1
+方法<TestCase>执行失败，重试第1次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out"/>
+    <system-out><![CDATA[thread----main
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid]
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid] ---- 2
+方法<TestCase>执行失败，重试第2次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out"/>
+    <system-out><![CDATA[thread----main
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid]
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid] ---- 3
+方法<TestCase>执行失败，重试第3次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="5.023">
+    <failure message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out" type="http.HttpClientException">http.HttpClientException: IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out
+	at apitest.ApiTestNgTest.TestCase(ApiTestNgTest.java:31)
+</failure>
+    <system-out><![CDATA[thread----main
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid]
+TestCase [type=get, url=http://59.110.139.20:8080/goods/UserServlet?method=loginMobile&loginname=test1&loginpass=test1, params=null, header=token=11;user=123;, result=null, check=$.code=1, correlation=id=$.uid] ---- 4
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out"/>
+    <system-out><![CDATA[thread----main
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd]
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd] ---- 1
+方法<TestCase>执行失败，重试第1次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out"/>
+    <system-out><![CDATA[thread----main
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd]
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd] ---- 2
+方法<TestCase>执行失败，重试第2次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out"/>
+    <system-out><![CDATA[thread----main
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd]
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd] ---- 3
+方法<TestCase>执行失败，重试第3次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="5.004">
+    <failure message="IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out" type="http.HttpClientException">http.HttpClientException: IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out
+	at apitest.ApiTestNgTest.TestCase(ApiTestNgTest.java:35)
+</failure>
+    <system-out><![CDATA[thread----main
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd]
+TestCase [type=postjson, url=http://59.110.139.20:8080/goods/json2, params={"count":10}, header=token=61b3590090982a0185dda9d3bd793b46, result=null, check=null, correlation=name_*=$..name;pwd_*=$..pwd] ---- 4
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[thread----main
+${id}
+----------
+id
+TestCase [type=get, url=http://www.baidu.com?pid=${id}&test=${name_g1}, params=null, header=null, result=null, check=null, correlation=null] ---- 1
+方法<TestCase>执行失败，重试第1次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[thread----main
+${id}
+----------
+id
+TestCase [type=get, url=http://www.baidu.com?pid=${id}&test=${name_g1}, params=null, header=null, result=null, check=null, correlation=null] ---- 2
+方法<TestCase>执行失败，重试第2次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[thread----main
+${id}
+----------
+id
+TestCase [type=get, url=http://www.baidu.com?pid=${id}&test=${name_g1}, params=null, header=null, result=null, check=null, correlation=null] ---- 3
+方法<TestCase>执行失败，重试第3次
+]]></system-out>
+  </testcase>
+  <testcase name="TestCase" classname="apitest.ApiTestNgTest" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at apitest.ApiTestNgTest.TestCase(ApiTestNgTest.java:27)
+</failure>
+    <system-out><![CDATA[thread----main
+${id}
+----------
+id
+TestCase [type=get, url=http://www.baidu.com?pid=${id}&test=${name_g1}, params=null, header=null, result=null, check=null, correlation=null] ---- 4
+]]></system-out>
+  </testcase>
+</testsuite>

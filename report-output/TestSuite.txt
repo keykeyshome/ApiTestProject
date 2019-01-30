@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 3, Errors: 0, Skipped: 9, Time elapsed: 44.873 s <<< FAILURE! - in TestSuite
+TestCase(apitest.ApiTestNgTest)  Time elapsed: 5.023 s  <<< FAILURE!
+http.HttpClientException: IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out
+	at apitest.ApiTestNgTest.TestCase(ApiTestNgTest.java:31)
+
+TestCase(apitest.ApiTestNgTest)  Time elapsed: 5.004 s  <<< FAILURE!
+http.HttpClientException: IO error,Connect to 59.110.139.20:8080 [/59.110.139.20] failed: connect timed out
+	at apitest.ApiTestNgTest.TestCase(ApiTestNgTest.java:35)
+
+TestCase(apitest.ApiTestNgTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at apitest.ApiTestNgTest.TestCase(ApiTestNgTest.java:27)
+

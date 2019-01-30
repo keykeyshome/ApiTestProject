@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [testproj]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="retry.OverrideIAnnotationTransformer"/>
+  </listeners>
+  <test name="testDemo1(failed)">
+    <classes>
+      <class name="apitest.ApiTestNgTest">
+        <methods>
+          <include name="TestCase" invocation-numbers="0 0 0 0 1 1 1 1 2 2 2 2"/>
+        </methods>
+      </class> <!-- apitest.ApiTestNgTest -->
+    </classes>
+  </test> <!-- testDemo1(failed) -->
+</suite> <!-- Failed suite [testproj] -->
