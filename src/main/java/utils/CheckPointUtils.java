@@ -17,6 +17,7 @@ public class CheckPointUtils {
 				params = params.replace(values[0], "data");
 				Map<String, Object> env = new HashMap<String, Object>();
 				Object value = JsonPath.read(json, values[0]);
+//				这段代码有问题，value instanceof 这里判断进不去造成 无法raplace
 				if(value instanceof String) {
 					System.out.println("----------"+ values[1]);
 					params = params.replace(values[1], covertToAviatorString(values[1]));
